@@ -1,6 +1,6 @@
 function calc(ope){
-    var num1=document.getElementById("num1").value;
-     var num2=document.getElementById("num2").value;
+    var num1=parseInt(document.getElementById("Num1").value);
+     var num2=parseInt(document.getElementById("Num2").value);
     var message;
     switch(ope){
         case "add":
